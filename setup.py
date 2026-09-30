@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="kuest-py-builder-signing-sdk",
-    version="2.0.3",
+    version="2.0.4",
     author="Kuest Engineering",
     author_email="engineering@kuest.com",
     maintainer="Kuest Engineering",
@@ -13,13 +13,13 @@ setuptools.setup(
     description="Python builder signing sdk",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/kuestcom/py-builder-signing-sdk",
+    url="https://github.com/kuest/py-builder-signing-sdk",
     install_requires=[
         "python-dotenv>=1.2.1",
         "requests>=2.32.5",
     ],
     project_urls={
-        "Bug Tracker": "https://github.com/kuestcom/py-builder-signing-sdk/issues",
+        "Bug Tracker": "https://github.com/kuest/py-builder-signing-sdk/issues",
     },
     classifiers=[
         "Programming Language :: Python :: 3",
